@@ -30,6 +30,8 @@ import org.androidannotations.api.BackgroundExecutor;
 @EFragment(R.layout.fragment_one)
 public class MyFragment extends Fragment {
     public static String TAG = "MyFragment";
+    String s="s";
+    String s2="s2";
     @Bean
     Ball ball;
     @ViewById(R.id.text_hello)
